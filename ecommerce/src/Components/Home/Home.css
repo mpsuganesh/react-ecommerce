@@ -1,0 +1,45 @@
+#classicformpage .view {
+    background-image: url('https://www.tata.com/content/dam/tata/images/newsroom/business/desktop/starbazaar_banner_desktop_1920x1080.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+  }
+  
+  #classicformpage .gradient {
+    background: -webkit-gradient(
+      linear,
+      45deg,
+      from(rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%)
+    );
+    
+  }
+  .about-us {
+    text-align: center;
+  }
+  
+  #classicformpage .card {
+    background-color: rgba(126, 123, 215, 0.2);
+  }
+  
+  #classicformpage h6 {
+    line-height: 1.7;
+  }
+  
+  #classicformpage .navbar {
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+  
+  #classicformpage .top-nav-collapse {
+    background: #424f95 !important;
+  }
+  
+  @media (max-width: 768px) {
+    #classicformpage .navbar:not(.top-nav-collapse) {
+      background: #424f95 !important;
+    }
+  }
+  
+  #classicformpage label {
+    color: #fff !important;
+  }
